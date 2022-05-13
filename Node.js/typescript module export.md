@@ -11,3 +11,8 @@
 해결
 > export {객체, 함수 등} <br>
 > import * as 별칭 from "상대경로"
+
+<br>
+<br>
+
+참고 https://velog.io/@jkzombie/Typescript-%EC%9D%B5%ED%9E%88%EA%B8%B0-lib
