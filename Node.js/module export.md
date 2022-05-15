@@ -4,13 +4,20 @@
 <br>
 
 원인
-> typescript랑 javascript 문법이 다름
+> commonjs와 ES6 문법의 차이
 
 <br>
 
 해결
-> export {객체, 함수 등} <br>
-> import * as 별칭 from "상대경로"
+1) commonjs
+- module.exports = {};
+- const 변수명 = require("");
+
+<br>
+
+2) ES6
+- export {객체, 함수 등};
+- import * as 별칭 from "";
 
 <br>
 <br>
