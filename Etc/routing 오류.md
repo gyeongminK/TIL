@@ -10,5 +10,5 @@
 <br>
 
 해결
-> count api를 /api/spellings/count/all 등과 같이 {id}와 구분될 수 있도록 지정. <br>
-> restful하게 짜기 위해서 어떤 식으로 라우팅 해야 할지는 좀 더 고민이 필요할 듯.
+> count api를 따로 두려면 /api/spellings/count/all 등과 같이 {id}와 구분될 수 있도록 지정 필요. <br>
+> 또는 그냥 /api/spellings 에서 count 정보를 같이 보내야 함.
