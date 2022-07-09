@@ -9,12 +9,12 @@
 <br>
 
 원인
-> config package 미설치
+> config package 미설치 + typescript 버전 문제
 
 <br>
 
 해결
-> npm i config
+> npm i config + typescript@4.3.5 버전으로 업그레이드
 
 <br>
 <br>
