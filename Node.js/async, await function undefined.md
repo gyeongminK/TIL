@@ -1,5 +1,5 @@
 문제
-> 아래와 같은 코드에서 async, await가 연쇄적으로 일어나며 변수에 undefinded가 할당되는 문제
+> 아래와 같은 코드에서 async, await가 연쇄적으로 일어나며 변수에 undefined가 할당되는 문제
 
 ```js
 const functionA = async ()=> {
@@ -11,7 +11,7 @@ const functionA = async ()=> {
 ```js
 const mainFunc = async ()=> {
     const user = await functionA()
-    console.log("user:",user) // undefinded
+    console.log("user:",user) // undefined
 }
 ```
 <br>
