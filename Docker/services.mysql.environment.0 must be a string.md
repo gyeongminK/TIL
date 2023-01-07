@@ -1,5 +1,5 @@
 문제
-> docker-compose.yml 파일에서 mysql 환경설정을 했는 데 에러 발생
+> docker-compose.yml 파일에서 mysql 환경설정을 했는데 에러 발생
 
 <br>
 
